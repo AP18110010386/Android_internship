@@ -1,0 +1,40 @@
+package com.example.myapplication;
+
+
+
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+public class MainActivity extends AppCompatActivity {
+    Button b1;
+    TextView tv;
+    int a=0;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        b1 =findViewById(R.id.countInc);
+
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Action
+                a++;
+                tv.setText(""+a);
+
+            }
+        });
+        }
+
+    public void display(View view) {
+        //Action
+        Toast.makeText(this, "SRM University AP", Toast.LENGTH_SHORT).show();
+    }
+}

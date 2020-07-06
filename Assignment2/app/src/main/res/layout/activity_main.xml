@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:orientation="vertical" android:layout_gravity="center_horizontal|center_vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_weight="0.9">
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight="0.5">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.1" android:textSize="30sp" android:text="TEAM A" android:gravity="center" android:background="#FF9800"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.1" android:textSize="100sp" android:text="0" android:gravity="center" android:id="@+id/A_COUNT"/>
+
+    <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="150dp" android:layout_weight="0.05" android:textSize="20sp" android:text="+1 POINT" android:background="#E91E63" android:id="@+id/a1"/>
+
+    <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="150dp" android:layout_weight="0.05" android:textSize="20sp" android:text="+2 POINT" android:background="#E91E63" android:id="@+id/a2"/>
+
+    <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="150dp" android:layout_weight="0.05" android:textSize="20sp" android:text="+3 POINT" android:background="#E91E63" android:id="@+id/a3"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight="0.5">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.1" android:textSize="30sp" android:text="TEAM B" android:gravity="center" android:background="#FF9800"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.1" android:textSize="100sp" android:text="0" android:gravity="center" android:id="@+id/B_COUNT"/>
+
+    <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="150dp" android:layout_weight="0.05" android:textSize="20sp" android:text="+1 POINT" android:background="#E91E63" android:id="@+id/b1"/>
+
+    <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="150dp" android:layout_weight="0.05" android:textSize="20sp" android:text="+2 POINT" android:background="#E91E63" android:id="@+id/b2"/>
+
+    <Button android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="150dp" android:layout_weight="0.05" android:textSize="20sp" android:text="+3 POINT" android:background="#E91E63" android:id="@+id/b3"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <Button android:layout_gravity="center" android:layout_height="79dp" android:layout_width="181dp" android:textSize="40sp" android:text="RESET" android:background="#2196F3" android:id="@+id/RESET"/>
+
+</LinearLayout>
